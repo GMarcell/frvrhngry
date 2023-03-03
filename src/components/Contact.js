@@ -11,15 +11,15 @@ function Contact() {
         <div>
           <div className='py-2 d-flex align-items-center'>
             <AiOutlineInstagram size={56} />
-            <h3 className='px-2'>frvrhngry.co</h3>
+            <h5 className='px-2'>frvrhngry.co</h5>
           </div>
           <div className='py-2 d-flex align-items-center'>
             <AiOutlineMail size={56} />
-            <h3 className='px-2'>foreverhungryforever@gmail.com</h3>
+            <h5 className='px-2'>foreverhungryforever@gmail.com</h5>
           </div>
           <div className='py-2 d-flex align-items-center'>
             <BsPhone size={56} />
-            <h3 className='px-2'>+62 813 1865 4828</h3>
+            <h5 className='px-2'>+62 813 1865 4828</h5>
           </div>
         </div>
       </div>
