@@ -70,6 +70,12 @@
   box-sizing: border-box;
 }
 
+.bg-aboutus {
+  background-image: url('../src/asset/image/bg1.png');
+  background-position: center;
+  background-size: cover;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
