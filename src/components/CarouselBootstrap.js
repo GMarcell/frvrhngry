@@ -18,23 +18,23 @@ function CarouselBootstrap() {
       <Navbar/>
       <Carousel activeIndex={index} onSelect={handleSelect} fade style={{height: '100vh'}}>
         <Carousel.Item interval={1000}>
-          <div className='d-flex'>
-            <img className="d-block w-100" src={model1} alt="First slide" />
+          <div className='d-flex justify-content-center'>
+            <img className="d-block img-fluid" src={model1} alt="First slide" />
           </div>
         </Carousel.Item>
         <Carousel.Item interval={1000}>
-          <div className='d-flex'>
-            <img className="d-block w-100" src={model2} alt="First slide" />
+          <div className='d-flex justify-content-center'>
+            <img className="d-block img-fluid" src={model2} alt="First slide" />
           </div>
         </Carousel.Item>
         <Carousel.Item interval={1000}>
-          <div className='d-flex'>
-            <img className="d-block w-100" src={model3} alt="Second slide" />
+          <div className='d-flex justify-content-center'>
+            <img className="d-block img-fluid" src={model3} alt="Second slide" />
           </div>
         </Carousel.Item>
         <Carousel.Item interval={1000}>
-          <div className='d-flex'>
-            <img className="d-block w-100" src={model4} alt="Second slide" />
+          <div className='d-flex justify-content-center'>
+            <img className="d-block img-fluid" src={model4} alt="Second slide" />
           </div>
         </Carousel.Item>
       </Carousel>
