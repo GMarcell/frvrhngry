@@ -70,6 +70,12 @@
   box-sizing: border-box;
 }
 
+.bg-banner {
+  background-image: url('../src/asset/image/banner.png');
+  background-position: center;
+  background-size: cover;
+}
+
 .bg-aboutus {
   background-image: url('../src/asset/image/bg1.png');
   background-position: center;
@@ -4155,7 +4161,7 @@ textarea.form-control-lg {
   .navbar-expand-sm .offcanvas {
     position: inherit;
     bottom: 0;
-    z-index: 1000;
+    /* z-index: 1000; */
     flex-grow: 1;
     visibility: visible !important;
     background-color: transparent;
@@ -4208,7 +4214,7 @@ textarea.form-control-lg {
   .navbar-expand-md .offcanvas {
     position: inherit;
     bottom: 0;
-    z-index: 1000;
+    /* z-index: 1000; */
     flex-grow: 1;
     visibility: visible !important;
     background-color: transparent;
