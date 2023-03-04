@@ -9,7 +9,7 @@ function Shop() {
     <>
       <Navbar/>
       <div className='px-3' style={{height: '100vh'}}>
-        <div className='my-3 h-50 bg-banner d-flex align-items-end'>
+        <div className='my-3 h-50 bg-banner'>
           <p className='ms-4 text-white' style={{fontSize: '80px'}}>SALE</p>
         </div>
         <div className='h-50 py-5 row'>

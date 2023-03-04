@@ -10,7 +10,7 @@ function NavbarBootstrap() {
     <Navbar expand="md" style={{backgroundColor: '#ffdc22'}}>
       <Container>
         <Navbar.Brand href="/">
-          <img width='30' height='30' src={logo} alt='Logo'/>
+          <img width='80' height='50' src={logo} alt='Logo'/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav d-flex justify-content-end" />
         <Navbar.Collapse id="basic-navbar-nav">
