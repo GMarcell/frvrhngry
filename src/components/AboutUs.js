@@ -12,7 +12,7 @@ function AboutUs() {
         <div className='h-50 bg-aboutus'>
           <div className='px-4 px-md-5 py-3 d-inline-block'>
             <div className='row'>
-              <p className='text-white col-sm-6 p-0 m-0'>
+              <p className='text-white col-md-9 col-lg-6 p-0 m-0 font-aboutus'>
                 Berangkat dari sebuah kultur darah muda yang memiliki ketertarikan dengan gaya hidup
                 yang bebas dalam berekspresi, Foreverhungry hadir untuk meerangkul teman-teman
                 yang kerap gelisah dalam menyampaikan suara ke muka umum. Foreverhungry hadir
