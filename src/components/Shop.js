@@ -3,11 +3,17 @@ import Navbar from './Navbar'
 import product1 from '../asset/image/product/ACAB-1.png'
 import product2 from '../asset/image/product/1.png'
 import product3 from '../asset/image/product/2222.png'
+import shoppee from '../asset/icons/shoppee.png'
 
 function Shop() {
   return (
     <>
       <Navbar/>
+      <div className='sticky-button'>
+        <a href='shopee.co.id/foreverhungry631'>
+          <img className='shoppee' src={shoppee} alt='shoppee'/>
+        </a>
+      </div>
       <div className='px-3' style={{height: '100vh'}}>
         <div className='my-3 h-50 bg-banner'>
           <p className='ms-4 text-white' style={{fontSize: '80px'}}>SALE</p>

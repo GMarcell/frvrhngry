@@ -19,6 +19,13 @@
   background-size: cover;
 }
 
+.sticky-button {
+  z-index: 99999;
+  right: 20px;
+  bottom: 20px;
+  position: fixed;
+}
+
 @media only screen and (max-width: 480px) {
   .font-contact{
     font-size: 17px;
@@ -26,5 +33,9 @@
   
   .font-aboutus {
     font-size: 15px;
+  }
+
+  .shoppee{
+    width: 70px;
   }
 }

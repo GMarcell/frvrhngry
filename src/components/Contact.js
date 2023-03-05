@@ -3,7 +3,6 @@ import Navbar from './Navbar';
 import icon1 from '../asset/icons/instagram.png'
 import icon2 from '../asset/icons/envelope.png'
 import icon3 from '../asset/icons/phone.png'
-import '../App.css'
 
 function Contact() {
   return (
