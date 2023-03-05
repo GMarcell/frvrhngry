@@ -21,18 +21,18 @@ function Shop() {
         <div className='h-50 py-5 row'>
           <div className='col-md-4'>
             <img className='w-100' src={product1} alt='Product1'/>
-            <h3 className='text-center'>ACAB</h3>
-            <h4 className='text-center'>IDR 130.000</h4>
+            <h6 className='text-center fw-bold'>ACAB</h6>
+            <h6 className='text-center'>IDR 130.000</h6>
           </div>
           <div className='col-md-4'>
             <img className='w-100' src={product3} alt='Product3'/>
-            <h3 className='text-center'>STARVING FACTION</h3>
-            <h4 className='text-center'>IDR 130.000</h4>
+            <h6 className='text-center fw-bold'>STARVING FACTION</h6>
+            <h6 className='text-center'>IDR 130.000</h6>
           </div>
           <div className='col-md-4'>
             <img className='w-100' src={product2} alt='Product2'/>
-            <h3 className='text-center'>HUNGRY THEORY</h3>
-            <h4 className='text-center'>IDR 130.000</h4>
+            <h6 className='text-center fw-bold'>HUNGRY THEORY</h6>
+            <h6 className='text-center'>IDR 130.000</h6>
           </div>
         </div>
       </div>
