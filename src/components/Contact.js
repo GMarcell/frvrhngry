@@ -2,6 +2,9 @@ import React from 'react'
 import { AiOutlineInstagram, AiOutlineMail } from 'react-icons/ai';
 import { BsPhone } from 'react-icons/bs';
 import Navbar from './Navbar';
+import icon1 from '../asset/icons/instagram.png'
+import icon2 from '../asset/icons/envelope.png'
+import icon3 from '../asset/icons/phone.png'
 
 function Contact() {
   return (
@@ -10,16 +13,16 @@ function Contact() {
       <div style={{height: '100vh', backgroundColor:'#ffdc22'}} className='d-flex justify-content-center align-items-center'>
         <div>
           <div className='py-2 d-flex align-items-center'>
-            <AiOutlineInstagram size={56} />
+            <img src={icon1} alt='instagram'/>
             <h5 className='px-2'>frvrhngry.co</h5>
           </div>
           <div className='py-2 d-flex align-items-center'>
-            <AiOutlineMail size={56} />
+            <img src={icon2} alt='email'/>
             <h5 className='px-2'>foreverhungryforever@gmail.com</h5>
           </div>
           <div className='py-2 d-flex align-items-center'>
-            <BsPhone size={56} />
-            <h5 className='px-2'>+62 813 1865 4828</h5>
+            <img src={icon3} alt='phone'/>
+            <h5 className='px-3'>+62 813 1865 4828</h5>
           </div>
         </div>
       </div>
